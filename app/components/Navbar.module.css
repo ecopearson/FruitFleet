@@ -1,0 +1,28 @@
+/* Navbar.module.css */
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff; /* Set the background color */
+  z-index: 1000; /* Ensure it stays on top of other content */
+  padding: 10px 0; /* Add padding for aesthetics */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around; /* Space out the links */
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Remove bullet points */
+}
+
+.nav li {
+  margin: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333; /* Adjust link color */
+}
