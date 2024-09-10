@@ -7,9 +7,8 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="w-full flex flex-col items-center bg-gradient-to-b from-green-100 to-green-50">
-      {/* Floating Navigation Bar */}
-      <Navbar />
 
+      
       {/* Introduction Section */}
       <section className="w-full max-w-5xl p-8 text-center bg-green-300">
         <h1 className="text-6xl font-extrabold text-green-800 mb-4">Cut your grocery bill and your food waste + EAT FRUITS!!!!!!!!!!!</h1>

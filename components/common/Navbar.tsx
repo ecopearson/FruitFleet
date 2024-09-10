@@ -9,11 +9,14 @@ export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="container sticky top-0 z-50 flex w-full h-14 items-center justify-between overflow-hidden border-b bg-[#f5f5dc] p-4">
-      {/* Left side: Brand name in a special font */}
-      <div className="text-2xl font-extrabold text-black font-sans tracking-wide">
-        FRUITFLEET
-      </div>
+    <div className="sticky top-0 z-50 flex w-full h-14 items-center justify-between overflow-hidden border-b bg-[#f5f5dc] p-4">
+      
+      {/* Left side: Brand name as a Home button */}
+      <Link href="/" passHref>
+      <span className="text-2xl font-Helvetica text-black font-Helvetica tracking-wide cursor-pointer">
+          FRUITFLEET
+        </span>
+      </Link>
 
       {/* Right side: Navigation Links */}
       <div className="flex space-x-6 text-black text-lg font-medium items-center">
